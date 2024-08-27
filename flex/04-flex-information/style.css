@@ -1,5 +1,22 @@
+body, .plants, .plant{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
+  gap: 32px;
+}
+
+.plants{
+  flex-direction: row;
+  gap: 16px;
+}
+
+.plant{
+  text-align: center;
 }
 
 img {
